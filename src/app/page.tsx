@@ -547,17 +547,18 @@ export default function Home() {
               xl:mt-3 xl:h-12 xl:w-64 xl:rounded-lg 
               2xl:mt-3 2xl:h-12 2xl:w-64 2xl:rounded-lg">
   
-  <div className="flex justify-center items-center h-full w-[20%] bg-[#1475E1] rounded-l-lg">
+  <div className="flex justify-center items-center h-full w-[20%] bg-[#246abb] rounded-full hover:cursor-pointer">
     <Wallet color="#ffffff" />
   </div>
 
-  <div className="h-full w-[60%] bg-[#0f212e] text-[#a4bcd3] font-bold flex justify-center items-center overflow-hidden">
+  <div className="h-full w-[60%] bg-[#0f212e] rounded-full text-[#a4bcd3] font-bold flex justify-center items-center overflow-hidden ">
     <h1 className="px-10">{amountInWallet}</h1>
   </div>
 
-  <div className="h-full w-[20%] text-xl font-bold flex justify-center items-center bg-[#00E701] hover:bg-[#1FFF20] rounded-r-lg hover:cursor-pointer">
-    <button className="h-full w-full" onClick={addMoneyButtonClicked}>+</button>
-  </div>
+  <div className="h-full w-[20%] text-xl font-bold flex justify-center items-center bg-[#1b911b] hover:bg-[#66bf66] rounded-full hover:cursor-pointer">
+  <button className="h-full w-full rounded-full" onClick={addMoneyButtonClicked}>+</button>
+</div>
+
 </div>
 
 
@@ -574,7 +575,7 @@ export default function Home() {
         
         2xl:mt-8 2xl:text-5xl 2xl:text-[#a4bcd3] 2xl:font-extrabold">
           {" "}
-          MineRush{" "}
+          RUSH MINE{" "}
         </h1>
 
         <div className={`my-8 h-[44rem] w-[20rem] bg-[#0f212e] rounded-xl flex flex-col-reverse justify-between items-center shadow-2xl
@@ -796,7 +797,7 @@ export default function Home() {
               </button>
             )}
 
-            {/* BUTTON FOR RE SHUFFLE THE BOARD */}
+            {/* BUTTON FOR RE SHUFFLE THE BOARD
             <button
               className={ `h-9 w-44 my-2 bg-[#0F212E] font-bold text-xs text-[#a4bcd3] rounded-sm
               
@@ -813,7 +814,7 @@ export default function Home() {
               onClick={reshuffleClicked}
             >
               Re-Shuffle Board
-            </button>
+            </button> */}
           </div>
 
           {/* GRID WALA BOX */}
